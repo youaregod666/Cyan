@@ -28,7 +28,7 @@ local function flash()
     gpu.fill(1, 1, width, height, " ")
     status("Downloading...")
 
-    local handle, data, chunk = internet.request("https://github.com/BrightYC/Cyan/tree/master/stuff/cyan.bin?raw=true"), ""
+    local handle, data, chunk = internet.request("https://github.com/youaregod666/Cyan/tree/master/stuff/cyan.bin?raw=true"), ""
 
     while true do
         chunk = handle.read(math.huge)
